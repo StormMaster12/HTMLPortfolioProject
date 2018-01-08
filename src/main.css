@@ -1,0 +1,89 @@
+*,*:before, *:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	background: #F5F5F5;
+	color: #444;
+
+	font-family: "Helvetica Neue", Arial, serif;
+	font-size: 22px;
+	font-weight: 200;
+	text-align: center;
+	justify-content: center;
+	
+}
+
+p{
+	margin: 10px 0;
+	font-size: 18px;
+}
+
+ul{
+	display: table;
+	margin: 10px auto;
+}
+
+ul li {
+	margin-left: 30px;
+}
+
+.header{
+	align-items: center;
+	background-color: #efe8e8;
+	background-image: url('bg.jpg');
+	background-position: cover;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	height: 40vh;
+	justify-content: center;
+	min-height: 250px;
+	padding: 0 20px;
+	position: relative;
+	text-align: center;
+}
+
+.header * {
+  position: relative;
+  z-index: 2;
+  text-shadow: 1px 1px 10px black;
+}
+
+.header:before {
+  background: rgba(0, 0, 0, .7);
+  bottom: 0;
+  content: ' ';
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.content-wrapper {
+	line-height: 1.4;
+	margin: 0 auto:
+	max-width: 900px;
+	padding: 30px 25px;
+}
+
+.tagline{
+}
+
+.skills{
+	background: #6666ff;
+	color: white;
+	
+	
+}
+
+.contact{
+}
